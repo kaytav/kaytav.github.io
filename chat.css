@@ -1,0 +1,120 @@
+
+
+
+
+
+
+#chatWindow {
+	height:400px;
+	overflow:scroll;
+	width:700px;
+	margin:0px auto;
+	text-align:left;
+	background-color:#EAEBF8;
+	border:1px solid #BBBBBC;
+	}
+	#chatWindow.transcript {
+	height:inherit;
+	overflow:visible;
+	}
+	#chatWindow p {
+		padding: 0px;
+		margin: 0px;
+	}
+	#chatWindow div {
+		background-color:#ffffff;
+		border:1px solid #BBBBBC;
+		margin: 15px;
+		padding:5px 10px 5px 10px;
+	}
+	#chatWindow .question {
+		background:url(images/question.gif) no-repeat top right #FFFFFF;
+	}
+	#chatWindow .comment {
+		background:url(images/comment.gif) no-repeat top right #FFFFFF;
+	}
+	#chatWindow .what {
+		color:#061141;
+		font-size:15px;
+		font-weight:bold;
+	}
+	#chatWindow .who {
+		background:url(images/posted.gif) no-repeat left;
+		padding-left:12px;
+		font-size:10px;
+		font-weight:bold;
+		color:#4E789E;
+	}
+	#chatWindow .content {
+		padding:5px 0px 5px 10px;
+		font-size:12px;
+}
+
+#submitContentContainer {
+		width:700px;
+		margin:10px auto 0px auto;
+		padding:0px;
+		font-size:10px;
+		font-weight:bold;
+		color:#061141;
+	
+	}
+	#submitContentForm {
+		padding:0px;
+		margin:0px;
+	}
+	#submitContentForm input input.text, textarea {
+		font-size:12px;
+		line-height:1.3em;
+		border-top:1px solid #7c7c7c;
+		border-left:1px solid #c3c3c3;
+		border-right:1px solid #c3c3c3;
+		border-bottom:1px solid #ddd;
+		background:#fff url(images/fieldbg.gif) repeat-x top;
+	}
+	#submitContentForm input {
+		width:45px;
+	}
+	#submitContentForm textarea {
+		width: 635px;
+		height: 75px;
+}
+
+
+#myDataContainer {
+	width:700px;
+	margin:0px auto;
+	text-align:left;
+	background-color:#EAEBF8;
+	border:1px solid #BBBBBC;
+	}
+	#myDataContainer div {
+		background-color:#ffffff;
+		border:1px solid #BBBBBC;
+		margin: 10px;
+		padding:5px 10px 5px 10px;
+		overflow:auto;
+	}
+	#myData p {
+		padding: 0px;
+		margin: 0px;
+	}
+	#myData .who {
+		background:url(images/youSubmitted.gif) no-repeat left;
+		padding-left:12px;
+		font-size:10px;
+		font-weight:bold;
+		color:#4E789E;
+	}
+	#myData .status {
+		background:url(images/status.gif) no-repeat left;
+		padding-left:12px;
+		font-size:10px;
+		font-weight:bold;
+		color:#4E789E;
+	}
+	#myData .content {
+		padding:5px 0px 5px 10px;
+		font-size:12px;
+		font-weight:normal;
+}
