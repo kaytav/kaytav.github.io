@@ -253,7 +253,7 @@
 										<img src="images/stars.gif" alt="* * * *" class="stars" />
 										<img src="images/t_upcoming_events.gif" alt="Upcoming Events" />
 									</div>
-									# 1 - Brimma
+									# 1 - Kay
 									<!-- begin output of schedule -->
 																		<!-- end output of schedule -->
 									
